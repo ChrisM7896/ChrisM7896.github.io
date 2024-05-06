@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>About Page</title>
     <style>
         #bigContainer {
             text-align: center;
@@ -26,43 +26,53 @@
             margin: 20px;
             padding: 10px;
             box-shadow: 5px 5px 1px black;
-            width: 40%;
         }
 
-        #boxes {
+
+        #smallContainer {
+
             background-color: rgb(149, 250, 220);
             border-radius: 10px;
             margin: 10px;
             padding: 1px;
             justify-content: space-evenly;
-        }
 
-        .smallContainer {
-            display: flex;
-            justify-content: space-evenly;
         }
+        #smallBoxes {
+            display: flex;
+        }
+       
     </style>
 </head>
 
 <body>
     <div id="bigContainer">
-        <h1>My Website</h1>
-        <div id="boxes">
-            <div class="smallContainer">
+        <h1>About</h1>
+        <div id="smallContainer">
+            <div id="smallBoxes">
                 <div class="content">
-                    <h2>HTML Final</h2>
-                    <p>This website serves as my submission for my final HTML project in Mr. Smith's 2023-2024
-                        Programming class. Here you can find my game, Heaven's Mission, which was created in RPG Maker MZ. </p>
-                    <img src="https://cdn-icons-png.flaticon.com/512/1197/1197396.png" height="100px">
+                    <h2>About Me</h2>
+                    <p>I am a student in Mr. Smith's 2023-2024 Programming class. I hope to be a professional game
+                        developer in the future. I am far from there at the moment, but I am working to do better at
+                        this.</p>
+                    <img src="https://cdn-icons-png.flaticon.com/512/25/25627.png" height="200 px">
                 </div>
+                <div class="content">
+                    <h2>About Game</h2>
+                    <p>In my game, Heaven's Mission, you play as a young adventurer named Reid on his quest for God,
+                        defeating monsters and battling an ancient evil, making allies and ememies along the way.</p>
+                    <img src="asset01.png" height="250px">
+                </div>
+            </div>
+            <div id="bigBox">
                 <div class="content">
                     <h2>Directory</h2>
                     <a target="_blank" href="game/index.html">Heaven's Mission</a><br>
-                    <a href="aboutme.html">About Page</a><br><br>
-                    <img src="https://blogs.flinders.edu.au/student-news/wp-content/uploads/sites/89/2019/05/compass-blog.png" height="120px">
+                    <a href="index.html">Home Page</a>
                 </div>
             </div>
         </div>
+
     </div>
 </body>
 
